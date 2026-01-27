@@ -8,6 +8,9 @@ examples/transformers/cache/
 examples/transformers/output/
 examples/transformers/runs/
 examples/transformers/wandb/
+examples/autoround/xLAM-2-32b-fc-r-W4A16-G128-AutoRound-LowMem/
+examples/awq/Meta-Llama-3-8B-Instruct-awq-asym/
+examples/awq/xLAM-2-32b-fc-r-awq-asym/
 /imagenet-schedule-training/
 /llmcompressor/models/pretrained/
 notebooks/logs/*
