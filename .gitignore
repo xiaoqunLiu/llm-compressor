@@ -815,3 +815,4 @@ env_log.json
 uv.lock
 .venv/
 
+quantized_model/
