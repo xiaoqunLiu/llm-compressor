@@ -1,6 +1,9 @@
 #!/bin/bash
 
-MODEL_ID="Team-ACE/ToolACE-8B" 
+# Activate the llmcomp conda environment
+source /egr/research-seit/xl/miniconda3/bin/activate llmcomp
+
+MODEL_ID="Salesforce/Llama-xLAM-2-8b-fc-r" 
 METHODS=("gptq" "awq" "smoothquant" "autoround" "simple_ptq") 
 
 DATASET="HuggingFaceH4/ultrachat_200k"
